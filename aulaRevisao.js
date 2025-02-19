@@ -24,3 +24,8 @@ console.log(executarOperacao(4, 5, (a, b) => a * b)); // 20
 const numeros = [100, 200, 300, 400];
 const precosComDesconto = numeros.map(num => num * 0.9);
 console.log(precosComDesconto); // [90, 180, 270, 360]
+
+// Exercício 6
+const idades = [30,20,12,17,14,18,25,23]
+const menoresDeIdade = idades.filter(a => a < 18);
+console.log(menoresDeIdade); // [12, 17, 14]
