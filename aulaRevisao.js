@@ -20,5 +20,7 @@ function executarOperacao (a,b,operacao){
 console.log(executarOperacao(6, 3, (a, b) => a - b)); // 3
 console.log(executarOperacao(4, 5, (a, b) => a * b)); // 20
 
-
-
+// Exercício 5
+const numeros = [100, 200, 300, 400];
+const precosComDesconto = numeros.map(num => num * 0.9);
+console.log(precosComDesconto); // [90, 180, 270, 360]
