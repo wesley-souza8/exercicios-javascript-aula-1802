@@ -14,7 +14,9 @@ console.log(mensagemBoasVindas("Carlos")); // "Seja bem-vindo, Carlos!"
 console.log(mensagemBoasVindas("Ana"));    // "Seja bem-vindo, Ana!"
 
 // Exercício 4
-
+function executarOperacao (a,b,operacao){
+    return operacao(a,b)
+}
 console.log(executarOperacao(6, 3, (a, b) => a - b)); // 3
 console.log(executarOperacao(4, 5, (a, b) => a * b)); // 20
 
