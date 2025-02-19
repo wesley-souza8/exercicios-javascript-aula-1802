@@ -29,3 +29,8 @@ console.log(precosComDesconto); // [90, 180, 270, 360]
 const idades = [30,20,12,17,14,18,25,23]
 const menoresDeIdade = idades.filter(a => a < 18);
 console.log(menoresDeIdade); // [12, 17, 14]
+
+// Exercício 7
+const prod = [2, 3, 4, 5];
+const produto = prod.reduce((total, num) => total * num);
+console.log(produto); // 120 (pois 2 * 3 * 4 * 5 = 120)
